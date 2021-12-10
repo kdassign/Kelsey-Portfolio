@@ -7,7 +7,6 @@
 :root {
     --primary-color: blue;
     --secondary-color: rgb(255, 255, 255);
-    --tertiary-color: #e5d3a8;
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: 'Raleway', sans-serif;
 }
@@ -75,7 +74,9 @@ header nav ul li a:hover {
 
 /* hero/jumbotron styling */
 .hero {
-    background-image: url(https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHw%3D&w=1000&q=80);
+    background-image: url(https://media4.giphy.com/media/gFbP6uK4afhPwXpL7H/giphy.gif?cid=790b761183f50e5ff5fb2592278b9eef592e111497630a72&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: 1800px 250px;
     height: 250px;
     display: flex;
     justify-content: flex-end;
@@ -85,7 +86,8 @@ header nav ul li a:hover {
 
 .hero h2 {
     font-family: var(--font-primary);
-    background: wheat;
+    background: blue;
+    border: solid white 4px;
     color: var(--secondary-color);
     font-size: 30px;
     padding: 5px 50px;
